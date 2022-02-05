@@ -1,0 +1,26 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "20.12.25圣诞日中注协的礼物8月27日开考，可以准备了。\n11.21怀着怎样的心情更新了这个壁纸，继续前行吧，少年！\n8.2 关于如何更改倒计时文字和时间，WallpaperEngine右击壁纸“在资源管理器中打开”，然后用记事本编辑index.html文件。相信你能找到对应的文字和日期，改它即可。这个壁纸本质就是一个网页文件。懂点html、js的一看便知了。\n4.25 报告季要结束啦！换回了纯黑配色，和深夜看书的我们更配哦~",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"tags" : [ "Abstract" ],
+	"title" : "2021CPA倒计时更新啦",
+	"type" : "web",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "1621988012",
+	"workshopurl" : "steam://url/CommunityFilePage/1621988012"
+}
