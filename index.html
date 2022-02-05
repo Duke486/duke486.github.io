@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="这是学习用的页面" />
+    <!--<meta http-equiv="refresh" content="1;url="/>-->
+    <style type="text/css"></style>
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <title>Live2021 在线观看</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        video {
+            position: fixed;
+            object-fit: cover;
+            right: 0px;
+            bottom: 0px;
+            min-width: 100%;
+            min-height: 100%;
+            height: 100%;
+            width: 100%;
+            /*filter: blur(15px);
+            -webkit-filter: grayscale(100%);
+            filter:grayscale(100%); */
+            z-index: -11
+        }
+
+        source {
+            min-width: 100%;
+            min-height: 100%;
+            height: auto;
+            width: auto;
+        }
+
+        p {
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+            color: rgb(212, 239, 255);
+        }
+        h4 {
+            width: 100%;
+            text-align: center;
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+        }
+        #red {
+            width: 100%;
+            text-align: center;
+            font-size: 15px;
+            font-style: italic;
+            color: rgb(255, 0, 0);
+        }
+        #a{   
+	    left: 0;
+	    position: fixed;
+        bottom: 35px;
+
+	    width: 100%;
+        z-index: 100;
+        background: #34353700;
+        display: flex;
+        justify-content: center;
+        color: rgb(212, 239, 255);
+        }
+        #b{   
+	    left: 0;
+	    position: fixed;
+        bottom: 10px;
+
+	    width: 100%;
+        z-index: 100;
+        background: #34353700;
+        display: flex;
+        justify-content: center;
+        color: rgb(212, 239, 255);
+        }
+    </style>
+    <script>
+confirm("Live2021正在直播中，立即进入观看？")
+    </script>
+
+
+</head>
+
+<body>
+    <p>A.I.为您演唱-the MIRACLE</p>
+    <h4><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp你唱的真不错！加油！<br></h4>
+    <h4 id="red"><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp我支持你哦！<br></h4>
+    <h4><br><br>不愧是AI酱啊，好听&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br></h4>
+
+    <form method="post" id="a">
+        <input type="text" size="50"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="发送弹幕到服务器"/>
+
+    </form><br/>
+    <form id="b">
+        <input type="radio" name="color" value="1"/>白色&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="color" value="2"/>红色&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="color" value="3"/>绿色&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="color" value="4"/>蓝色&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="font" value="1"/>加粗&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="font" value="2"/>斜体&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="font" value="3"/>划线
+    </form>
+
+    <video autoplay loop muted>
+        <source src="./movie2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+</body>
+
+</html>
