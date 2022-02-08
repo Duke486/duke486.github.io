@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>字符画生成</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<h1>图片生成字符画</h1>
+	<p>来源：<a href="https://lach.la">Lachlan</a> | <a href="https://github.com/LachlanArthur/Braille-ASCII-Art">GitHub:LachlanArthur/Braille-ASCII-Art</a></p>
+
+	<label for="filepicker">选择您的图像</label>
+	<input type="file" id="filepicker" accept=".png,.jpeg,.jpg">
+	<br>
+	<label for="threshold">识别灵敏程度</label>
+	<input type="range" id="threshold" min="0" max="255" value="127">
+	<br>
+	<label for="width">宽度</label>
+	<input type="number" id="width" value="100" step="10">个字符（大于500时会产生较大延迟）
+	<div id="output" contenteditable="true"></div>
+	<p>玩得愉快</p>
+	<a href="../index.html">回到首页</a>
+	<script src="dist/index.js" type="module"></script>
+
+</body>
+
+</html>
